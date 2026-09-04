@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>hoge</title>
+    <meta content="hoge" name="description" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <link href="hoge" rel="canonical" />
+    <!-- OGP -->
+    <meta content="hoge" property="og:url" />
+    <meta content="hoge" property="og:description" />
+    <meta content="hoge" property="og:site_name" />
+    <meta content="hoge" property="og:title" />
+    <meta content="website" property="og:type" />
+    <meta content="images/og-image.png" property="og:image" />
+    <meta content="ja_JP" property="og:locale" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon.webp" />
+    <!-- css/js -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" fetchpriority="high" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Zen+Maru+Gothic:wght@500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Zen+Maru+Gothic:wght@500;700&display=swap" media="print" onload="this.media = 'all'" />
+  </head>
+
+  <body>
+    <main class="l-main js-page">
+      <div class="l-hamburger js-toggle no-pc">
+        <div class="l-hamburger__inner">
+          <span class="l-hamburger__line"></span>
+          <span class="l-hamburger__line"></span>
+          <span class="l-hamburger__line"></span>
+        </div>
+      </div>
+
+      <nav class="l-navigation">
+        <div class="l-navigation__inner">
+          <div class="l-hamburger__content">
+            <ul class="l-hamburger__list">
+              <li><a href="#worries" class="l-hamburger__link">お悩み</a></li>
+              <li><a href="#feature" class="l-hamburger__link">変額保険でできること</a></li>
+              <li><a href="#selfTest" class="l-hamburger__link">運用タイプ診断</a></li>
+              <li><a href="#faq" class="l-hamburger__link">資産運用の疑問</a></li>
+            </ul>
+  
+            <div class="l-cta">
+              <p class="l-cta__heading">簡単<span class="l-cta__heading-highlight">チャット</span>で質問に答えるだけ!</p>
+              <a href="" class="l-cta__button l-cta__button--navigation">
+                <p class="l-cta__button-sub">診断<br />無料</p>
+                <p class="l-cta__button-main">
+                  ＼ あなたに合った ／<br />
+                  <span class="l-cta__button-main-highlight">資産運用タイプがわかる</span>
+                </p>
+                <span class="l-cta__button-arrow"></span>
+              </a>
+            </div>
+          </div>
+  
+          <div class="l-wave l-wave--hamburger"></div>
+  
+          <footer class="l-footer">
+            <div class="l-footer__inner">
+              <div class="l-footer__top">
+                <div class="l-footer__brand">
+                  <p class="l-footer__logo"><img src="images/logo.webp" width="745" height="146" alt="FINANCIAL AGENCY" /> </p>
+                  <ul class="l-footer__link-list">
+                    <li>
+                      <a href="https://www.financial-agency.com/compliance/pesonalinfo/" target="_blank" rel="noopener noreferrer" class="l-footer__link">個人情報保護方針</a>
+                    </li>
+                    <li>
+                      <a href="https://www.financial-agency.com/compliance/security/" target="_blank" rel="noopener noreferrer" class="l-footer__link">情報セキュリティー基本方針</a>
+                    </li>
+                    <li>
+                      <a href="https://www.financial-agency.com/compliance/solicitation/" target="_blank" rel="noopener noreferrer" class="l-footer__link">勧誘方針</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="l-footer__contact-wrapper">
+                  <p class="l-footer__contact-text">お問い合わせはこちら</p>
+                  <div class="l-contact">
+                    <div class="l-contact__body">
+                      <a href="tel:0120-407-672" class="l-contact__tel">
+                        <div class="l-contact__icon"><img src="images/tel-icon.webp" width="49" height="64" alt="電話のアイコン" /> </div>
+                        <p class="l-contact__number"><img src="images/tel-number.svg" alt="0120-407-672" width="184" height="20" /></p>
+                      </a>
+                      <p class="l-contact__time"><img src="images/tel-time.svg" alt="平日9:30-19:00" width="241" height="41" /></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-footer__mascot"><img src="images/navi-logo.webp" width="624" height="131" alt="ほけんNavi せつやくん" /></div>
+              </div>
+              <div class="l-footer__bottom-wrapper">
+                <div class="l-footer__bottom">
+                  <p class="l-footer__bottom-text"> フィナンシャル・エージェンシーは、高度な情報セキュリティ体制を実現するため、情報セキュリティ管理の国際規格である情報セキュリティマネジメントシステム「ISO/IEC27001」および、プライバシーマーク「JISQ 15001」の認証を取得しております。</p>
+                  <div class="l-footer__bottom-icon">
+                    <figure class="l-footer__certification l-footer__certification--asr"><img src="images/asr-isms.webp" width="290" height="206" alt="ASR ISMS AC isoiec27001" /></figure>
+                    <figure class="l-footer__certification l-footer__certification--privacy"><img src="images/privacypolicy.webp" width="206" height="206" alt="privacypolicy" /></figure>
+                  </div>
+                </div>
+                <p class="l-footer__copy t-center">&copy; FINANCIAL AGENCY, Inc.</p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </nav>
+
+      <header class="l-header">
+        <div class="l-header__logo">
+          <a href="https://www.financial-agency.com/" class="l-header__logo-link"><img src="images/header-logo.webp" alt="FINANCIAL AGENCY" width="330" height="27" /></a>
+        </div>
+        <div class="l-header__inner no-sp">
+          <ul class="l-header__link-list">
+            <li><a href="#worries" class="l-header__link js-scroll-link">お悩み</a></li>
+            <li><a href="#feature" class="l-header__link js-scroll-link">変額保険でできること</a></li>
+            <li><a href="#selfTest" class="l-header__link js-scroll-link">運用タイプ診断</a></li>
+            <li><a href="#faq" class="l-header__link js-scroll-link">資産運用の疑問</a></li>
+          </ul>
+          <div class="l-contact l-contact--header">
+            <a href="tel:0120-407-672" class="l-contact__tel l-contact__tel--header">
+              <div class="l-contact__icon"><img src="images/tel-icon.webp" width="49" height="64" alt="電話のアイコン" /></div>
+              <p class="l-contact__number"><img src="images/tel-number.svg" alt="0120-407-672" width="182" height="19" /></p>
+            </a>
+            <p class="l-contact__time"><img src="images/tel-time.svg" alt="平日9:30-19:00" width="117" height="13" /></p>
+          </div>
+        </div>
+      </header>
+
+      <section class="l-section l-section--mv">
+        <div class="l-section__curve--mv">
+          <div class="l-section__inner l-section__inner--mv">
+            <div class="l-mv">
+              <div class="l-mv__content">
+                <p class="l-mv__catch"><span class="l-mv__catch-text">子どもの将来を考え始めたあなたへ</span></p>
+                <div class="l-mv__title-wrapper">
+                  <div class="l-mv__subtitle">
+                    <p class="l-mv__subtitle-box">
+                      <span class="l-mv__subtitle-sub">子ども<span class="l-mv__subtitle-small">のための</span></span>
+                      <span class="l-mv__subtitle-main">資産運用</span>
+                    </p>
+                    <p class="l-mv__subtitle-text">と</p>
+                    <p class="l-mv__subtitle-box">
+                      <span class="l-mv__subtitle-sub">万が一の</span>
+                      <span class="l-mv__subtitle-main l-mv__subtitle-main--wide">備え</span>
+                    </p>
+                    <p class="l-mv__subtitle-text">ができる!</p>
+                    <sup class="l-mv__subtitle-mark">＊</sup>
+                  </div>
+                  <h1 class="l-mv__title">
+                    <span class="l-mv__title-box"><span class="l-mv__title-text">変</span></span>
+                    <span class="l-mv__title-box"><span class="l-mv__title-text">額</span></span>
+                    <span class="l-mv__title-box"><span class="l-mv__title-text">保</span></span>
+                    <span class="l-mv__title-box"><span class="l-mv__title-text">険</span></span>
+                  </h1>
+                </div>
+              </div>
+              <div class="l-mv__image"><img src="images/mv-img.webp" alt="家族の画像" width="738" height="580" class="l-mv__image-img" /></div>
+              <p class="l-mv__note">＊変額保険は元本割れになるリスクもございます。</p>
+            </div>
+          </div>
+          <div class="l-mv__cta">
+            <div class="l-cta">
+              <p class="l-cta__heading">簡単<span class="l-cta__heading-highlight">チャット</span>で質問に答えるだけ!</p>
+              <a href="" class="l-cta__button">
+                <p class="l-cta__button-sub">診断<br />無料</p>
+                <p class="l-cta__button-main">
+                  ＼ あなたに合った ／<br />
+                  <span class="l-cta__button-main-highlight">資産運用タイプがわかる</span>
+                </p>
+                <span class="l-cta__button-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="worries" class="l-section l-section--worries">
+        <div class="l-section__inner">
+          <div class="l-worries">
+            <h2 class="l-worries__heading">
+              こんなお悩み<br />
+              ありませんか？
+            </h2>
+            <div class="l-worries__list">
+              <div class="l-worries__list-item">
+                <div class="l-worries__list-visual">
+                  <div class="l-worries__list-image l-worries__list-image--first"><img src="images/worries-illust1.webp" alt="悩んでいる男性のイラスト" width="113" height="161" /></div>
+                  <div class="l-worries__list-deco">
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--default"><img src="images/icon-worries-deco.svg" alt="デコレーション" width="31" height="30" /></div>
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--dummy"><img src="images/icon-worries-deco2.svg" alt="デコレーション" width="31" height="30" /></div>
+                  </div>
+                </div>
+                <div class="l-worries__list-comment js-fade">
+                  <p class="l-worries__list-number">01</p>
+                  <p class="l-worries__list-text">
+                    「もしもの保障」と<br class="no-pc" />「子どもの教育資金」、<br />
+                    どうやって両立させる？
+                  </p>
+                </div>
+              </div>
+              <div class="l-worries__list-item l-worries__list-item--reverse">
+                <div class="l-worries__list-visual l-worries__list-visual--reverse">
+                  <div class="l-worries__list-image l-worries__list-image--second"><img src="images/worries-illust2.webp" alt="悩んでいる男性のイラスト" width="113" height="163" /></div>
+                  <div class="l-worries__list-deco l-worries__list-deco--reverse">
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--default"><img src="images/icon-worries-deco.svg" alt="デコレーション" width="31" height="30" /></div>
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--dummy"><img src="images/icon-worries-deco2.svg" alt="デコレーション" width="31" height="30" /></div>
+                  </div>
+                </div>
+                <div class="l-worries__list-comment l-worries__list-comment--reverse js-fade">
+                  <p class="l-worries__list-number">02</p>
+                  <p class="l-worries__list-text">資産運用を<br class="no-pc" />はじめたいけど、<br />面倒な手続きは<br class="no-pc" />できれば避けたい…</p>
+                </div>
+              </div>
+              <div class="l-worries__list-item">
+                <div class="l-worries__list-visual">
+                  <div class="l-worries__list-image l-worries__list-image--third"><img src="images/worries-illust3.webp" alt="悩んでいる男性のイラスト" width="103" height="155" /></div>
+                  <div class="l-worries__list-deco">
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--default"><img src="images/icon-worries-deco.svg" alt="デコレーション" width="31" height="30" /></div>
+                    <div class="l-worries__list-deco-illust l-worries__list-deco-illust--dummy"><img src="images/icon-worries-deco2.svg" alt="デコレーション" width="31" height="30" /></div>
+                  </div>
+                </div>
+                <div class="l-worries__list-comment js-fade">
+                  <p class="l-worries__list-number">03</p>
+                  <p class="l-worries__list-text"> 子育てや仕事で<br class="no-pc" />手いっぱいで、<br class="no-sp" />自分で<br class="no-pc" />運用するのは大変そう… </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l-message">
+            <p class="l-message__heading js-fade"><span class="l-message__heading-text">そんなお悩みは</span></p>
+            <div class="l-message__catch-wrapper">
+              <div class="l-message__subcatch">
+                <p class="l-message__subcatch-box">
+                  <span class="l-message__subcatch-sub">子ども<span class="l-message__subcatch-small">のための</span></span>
+                  <span class="l-message__subcatch-main">資産運用</span>
+                </p>
+                <p class="l-message__subcatch-text">と</p>
+                <p class="l-message__subcatch-box">
+                  <span class="l-message__subcatch-sub">万が一の</span>
+                  <span class="l-message__subcatch-main l-message__subcatch-main--wide js-fade">備え</span>
+                </p>
+                <p class="l-message__subcatch-text">ができる!</p>
+              </div>
+              <p class="l-message__catch">変額保険</p>
+            </div>
+            <p class="l-message__text">という<span class="l-message__text-highlight">選択肢</span>があります</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="feature" class="l-section l-section--feature">
+        <div class="l-section__inner">
+          <div class="l-feature">
+            <div class="l-feature__heading js-fade">
+              <div class="l-feature__heading-inner">
+                <div class="l-feature__heading-main">
+                  <div class="l-feature__heading-illust">
+                    <span class="l-feature__heading-illust-image"><img src="images/feature-icon-good.svg" alt="グッドマークのアイコン" width="44" height="55" /></span>
+                  </div>
+                  <h2 class="l-feature__heading-main-text js-fadeup">できること.<span class="l-feature__heading-main-text-large">01</span></h2>
+                </div>
+                <p class="l-feature__heading-sub js-fadeup">家族の未来を守る<br class="no-pc" />｢保障｣と｢将来の備え｣が<br class="no-pc" />両立できます！</p>
+              </div>
+            </div>
+            <div class="l-feature__detail">
+              <div class="l-feature__description">
+                <p class="l-feature__description-heading">
+                  死亡保障を確保しながら、<br />
+                  <span class="l-feature__description-heading-highlight">お子さまの成長に合わせて<br />資産運用を目指せます</span>
+                </p>
+                <p class="l-feature__description-text">教育資金を考えるなら、資産運用をしながら同時に死亡時など<span class="l-feature__description-text-highlight">万が一に備える死亡保障もセットになっている</span>変額保険がおすすめです！ </p>
+              </div>
+              <div class="l-feature__visual">
+                <div class="l-life-insurance">
+                  <p class="l-life-insurance__heading"> <span class="l-life-insurance__heading-highlight">変額保険</span>なら </p>
+                  <div class="l-life-insurance__content">
+                    <div class="l-life-insurance__content-inner js-fade">
+                      <div class="l-life-insurance__item">
+                        <div class="l-life-insurance__item-heading l-life-insurance__item-heading--light">教育資金</div>
+                        <div class="l-life-insurance__icon l-life-insurance__icon--yen">
+                          <span class="l-life-insurance__icon-image l-life-insurance__icon-image--yen">
+                            <img src="images/feature-icon-yen.svg" alt="¥" width="28" height="37" />
+                          </span>
+                        </div>
+                      </div>
+                      <div class="l-life-insurance__item l-life-insurance__item--right">
+                        <div class="l-life-insurance__item-heading l-life-insurance__item-heading--deep">
+                          もしもの<br />
+                          備え
+                        </div>
+                        <div class="l-life-insurance__icon l-life-insurance__icon--bag">
+                          <span class="l-life-insurance__icon-image l-life-insurance__icon-image--bag">
+                            <img src="images/feature-icon-bag.svg" alt="バックのアイコン" width="44" height="36" />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="l-life-insurance__text">どちらも<span class="l-life-insurance__text-highlight">両立を目指せます！</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l-feature">
+            <div class="l-feature__heading js-fade">
+              <div class="l-feature__heading-inner">
+                <div class="l-feature__heading-main">
+                  <div class="l-feature__heading-illust">
+                    <span class="l-feature__heading-illust-image"><img src="images/feature-icon-good.svg" alt="グッドマークのアイコン" width="44" height="55" /></span>
+                  </div>
+                  <h2 class="l-feature__heading-main-text js-fadeup">できること.<span class="l-feature__heading-main-text-large">02</span></h2>
+                </div>
+                <p class="l-feature__heading-sub js-fadeup">忙しい方でも<br class="no-pc" />面倒な証券口座の開設は<br />不要で資産運用をスタート!</p>
+              </div>
+            </div>
+            <div class="l-feature__detail">
+              <div class="l-feature__description">
+                <p class="l-feature__description-heading">
+                  <span class="l-feature__description-heading-highlight">変額保険なら、証券口座不要！</span>
+                </p>
+                <p class="l-feature__description-text"><span class="l-feature__description-text-highlight">面倒な証券口座の開設は不要で、資産運用も同時にスタート！</span>迷いがちな「投資先選び」も、保険のプロがわかりやすく丁寧にアドバイスするため、はじめての方でも安心して始められます。</p>
+              </div>
+              <div class="l-feature__visual">
+                <div class="l-assets"><img src="images/feature-illust.webp" alt="女性のイラスト" width="88" height="122" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="l-feature">
+            <div class="l-feature__heading js-fade">
+              <div class="l-feature__heading-inner">
+                <div class="l-feature__heading-main">
+                  <div class="l-feature__heading-illust">
+                    <span class="l-feature__heading-illust-image"><img src="images/feature-icon-good.svg" alt="グッドマークのアイコン" width="44" height="55" /></span>
+                  </div>
+                  <h2 class="l-feature__heading-main-text js-fadeup">できること.<span class="l-feature__heading-main-text-large">03</span></h2>
+                </div>
+                <p class="l-feature__heading-sub js-fadeup">日々の運用実務は<br class="no-pc" />保険会社におまかせ！</p>
+              </div>
+            </div>
+            <div class="l-feature__detail l-feature__detail--narrow">
+              <div class="l-feature__description l-feature__description--assets">
+                <p class="l-feature__description-heading">
+                  ファンド選びは<br class="no-sp" />プロがサポートするので、<br />
+                  <span class="l-feature__description-heading-highlight">初心者でもはじめやすい！</span>
+                </p>
+                <p class="l-feature__description-text">変額保険では、日常の運用実務は保険会社等が行います。日々の株価を見て売買注文を出すなどの必要がないため、資産運用が初めての方でも取り組みやすい面があります。</p>
+              </div>
+              <div class="l-feature__visual">
+                <div class="l-table">
+                  <table class="l-table__table">
+                    <thead>
+                      <tr>
+                        <th class="l-table__head l-table__head--blank"></th>
+                        <th class="l-table__head">新NISA</th>
+                        <th class="l-table__head">iDeCo</th>
+                        <th class="l-table__head l-table__head--insurance">変額保険</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="l-table__label">日々の運用実務</th>
+                        <td class="l-table__cell">自分</td>
+                        <td class="l-table__cell">自分</td>
+                        <td class="l-table__cell l-table__cell--insurance l-table__cell--large">
+                          <span class="l-table__icon"><img src="images/feature-table-icon.svg" alt="ハートマークのアイコン" width="35" height="30" /></span>
+                          保険会社*¹
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="l-table__label">ファンド(運用先)<br />の選択</th>
+                        <td class="l-table__cell">自分</td>
+                        <td class="l-table__cell">自分</td>
+                        <td class="l-table__cell l-table__cell--insurance">自分</td>
+                      </tr>
+                      <tr>
+                        <th class="l-table__label">死亡時の保障</th>
+                        <td class="l-table__cell">なし</td>
+                        <td class="l-table__cell">なし</td>
+                        <td class="l-table__cell l-table__cell--insurance">あり</td>
+                      </tr>
+                      <tr>
+                        <th class="l-table__label">月々のお金</th>
+                        <td class="l-table__cell">100円〜</td>
+                        <td class="l-table__cell l-table__cell--noline">5000円〜</td>
+                        <td class="l-table__cell l-table__cell--insurance">5000円〜*²</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="l-feature__note">
+                    *¹ お客様ご自身でファンド（運用先）を選択していただく必要があり、運用実績による損益（リスク）はお客様に帰属します。<br />
+                    *² 保険会社によって異なる場合があります。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l-feature">
+            <div class="l-more-pop js-fadeup"><img src="images/feature-pop.webp" alt="さらに" width="95" height="95" class="l-more-pop__image" /></div>
+            <div class="l-feature__detail l-feature__detail--management">
+              <div class="l-feature__description">
+                <p class="l-feature__description-heading">
+                  大きな病気に<br class="no-sp" />かかってしまっても<br />
+                  <span class="l-feature__description-heading-highlight">資産運用が続く仕組み</span>
+                </p>
+                <p class="l-feature__description-text">病気やケガなどで所定の状態になってしまった場合には<span class="l-feature__description-text-highlight">保険料の支払いが免除され、その後も今まで通りに積立が続きます！*</span> </p>
+                <p class="l-feature__note no-pc">*保険料払込免除は、保険会社の定める所定の要件を満たした場合、または該当の特約を付加した場合に適用されます。また、商品により条件が異なります。</p>
+              </div>
+              <div class="l-feature__visual l-feature__visual--management">
+                <div class="l-graph">
+                  <div class="l-graph__image"><img src="images/feature-graph.webp" alt="運用イメージ図" width="326" height="218" class="l-graph__image-element" /></div>
+                  <p class="l-feature__note">※上記の図はイメージであり、将来の積立額、死亡保険金額、高度障害保険金額、満期保険金額を保証するものではありません。</p>
+                </div>
+              </div>
+              <p class="l-feature__description-text l-feature__description-text--after">将来のために資産運用をしながら、万が一のことがあっても資産運用を止めなくていいので<span class="l-feature__description-text-highlight">将来の不安を解消する一助になります。</span></p>
+              <p class="l-feature__note l-feature__note--long no-sp">*保険料払込免除は、保険会社の定める所定の要件を満たした場合、または該当の特約を付加した場合に適用されます。また、商品により条件が異なります。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="selfTest" class="l-section">
+        <div class="l-section__inner">
+          <div class="l-type">
+            <div class="l-type__header">
+              <h2 class="l-type__title">
+                <span class="l-type__title-sub">＼保険代理店がお届けする／</span>
+                <span class="l-type__title-main">運用タイプ診断</span>
+              </h2>
+              <div class="l-type__header-catch"><img src="images/type-catch.webp" alt="保険コンサルティング実績累計200万件" width="330" height="129" /></div>
+            </div>
+            <div class="l-type__content">
+              <p class="l-type__heading">運用を始める前に<br />あなたのタイプを診断してみよう！</p>
+              <div class="l-type__visual js-fade">
+                <div class="l-type__visual-catch">
+                  <p class="l-type__visual-catch-text">カンタン</p>
+                  <div class="l-type__visual-catch-icon"><img src="images/type-time.webp" alt="1分" width="51" height="45" /></div>
+                </div>
+                <div class="l-type__visual-image l-type__visual-image--top">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="images/type-image1-pc.webp" />
+                    <img src="images/type-image1.webp" alt="あなたの専用タイプや" width="173" height="185" />
+                  </picture>
+                </div>
+                <div class="l-type__visual-image l-type__visual-image--center">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="images/type-image2-pc.webp" />
+                    <img src="images/type-image2.webp" alt="SNSで結果が届く！" width="174" height="192" />
+                  </picture>
+                </div>
+                <div class="l-type__visual-image l-type__visual-image--bottom">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="images/type-image3-pc.webp" />
+                    <img src="images/type-image3.webp" alt="保険種類もわかる！" width="163" height="156" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="l-cta">
+              <p class="l-cta__heading">簡単<span class="l-cta__heading-highlight">チャット</span>で質問に答えるだけ!</p>
+              <a href="" class="l-cta__button">
+                <p class="l-cta__button-sub">診断<br />無料</p>
+                <p class="l-cta__button-main">
+                  ＼ あなたに合った ／<br />
+                  <span class="l-cta__button-main-highlight">資産運用タイプがわかる</span>
+                </p>
+                <span class="l-cta__button-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="l-section">
+        <div class="l-section__inner">
+          <div class="l-faq">
+            <h2 class="l-faq__heading">資産運用の疑問</h2>
+            <div class="l-faq__list">
+              <details class="l-faq__accordion" open>
+                <summary class="l-faq__summary">
+                  <span class="l-faq__summary-inner">
+                    <span class="l-faq__summary-q"><img src="images/q.svg" width="83" height="92" alt="Q" /></span>
+                    <span class="l-faq__summary-text">どこの保険会社の<br class="no-pc" />運用実績がいいの？</span>
+                  </span>
+                  <i class="l-faq__icon"></i>
+                </summary>
+                <div class="l-faq__answer">
+                  <div class="l-faq__answer-inner">
+                    <p class="l-faq__answer-text">運用実績だけではなく、安心できる運用かなど総合的に判断する必要がございます。お客様の重視するものによっても魅力が異なるため、まずはご自身の運用タイプを把握しましょう。</p>
+                    <p class="l-faq__answer-a"><img src="images/a.svg" width="84" height="79" alt="A" /></p>
+                  </div>
+                </div>
+              </details>
+              <details class="l-faq__accordion">
+                <summary class="l-faq__summary">
+                  <span class="l-faq__summary-inner">
+                    <span class="l-faq__summary-q"><img src="images/q.svg" width="83" height="92" alt="Q" /></span>
+                    <span class="l-faq__summary-text">保険会社ごとに<br class="no-pc" />変額保険はどう違うの？</span>
+                  </span>
+                  <i class="l-faq__icon"></i>
+                </summary>
+                <div class="l-faq__answer">
+                  <div class="l-faq__answer-inner">
+                    <p class="l-faq__answer-text">保険会社によっては死亡と積立の組み合わせだけでなく、介護の一時金や保険料支払免除、3大疾病一時金を付けれる保険会社もございます。</p>
+                    <p class="l-faq__answer-a"><img src="images/a.svg" width="84" height="79" alt="A" /></p>
+                  </div>
+                </div>
+              </details>
+              <details class="l-faq__accordion">
+                <summary class="l-faq__summary">
+                  <span class="l-faq__summary-inner">
+                    <span class="l-faq__summary-q"><img src="images/q.svg" width="83" height="92" alt="Q" /></span>
+                    <span class="l-faq__summary-text">私にあった<br class="no-pc" />変額保険はどれ？</span>
+                  </span>
+                  <i class="l-faq__icon"></i>
+                </summary>
+                <div class="l-faq__answer">
+                  <div class="l-faq__answer-inner">
+                    <p class="l-faq__answer-text">家族構成や余剰金、またその他保険の加入状況によってオススメの保障が変わってきます。まずはお気軽にお問合せしてみてください。</p>
+                    <p class="l-faq__answer-a"><img src="images/a.svg" width="84" height="79" alt="A" /></p>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <p class="l-faq__note">※変額保険は元本割れになるリスクもございます。運用前に、どのようなリスクがあるのか確認しましょう。</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="l-fixed-cta">
+        <a href="" class="l-fixed-cta__link">
+          <p class="l-fixed-cta__text">資産運用<br />タイプを診断 <span class="l-fixed-cta__arrow"></span></p>
+        </a>
+      </div>
+
+      <footer class="l-footer">
+        <div class="l-footer__inner">
+          <div class="l-footer__page-top js-page-top">TOP</div>
+          <div class="l-footer__top">
+            <div class="l-footer__brand">
+              <p class="l-footer__logo">
+                <picture>
+                  <source media="(min-width: 1440px)" srcset="images/logo-pc.webp" />
+                  <img src="images/logo.webp" width="745" height="146" alt="FINANCIAL AGENCY" />
+                </picture>
+              </p>
+              <ul class="l-footer__link-list">
+                <li><a href="https://www.financial-agency.com/compliance/pesonalinfo/" target="_blank" rel="noopener noreferrer" class="l-footer__link">個人情報保護方針</a></li>
+                <li><a href="https://www.financial-agency.com/compliance/security/" target="_blank" rel="noopener noreferrer" class="l-footer__link">情報セキュリティー基本方針</a></li>
+                <li><a href="https://www.financial-agency.com/compliance/solicitation/" target="_blank" rel="noopener noreferrer" class="l-footer__link">勧誘方針</a></li>
+              </ul>
+            </div>
+            <div class="l-footer__contact-wrapper">
+              <p class="l-footer__contact-text">お問い合わせはこちら</p>
+              <div class="l-contact">
+                <div class="l-contact__body">
+                  <a href="tel:0120-407-672" class="l-contact__tel">
+                    <div class="l-contact__icon"><img src="images/tel-icon.webp" width="49" height="64" alt="電話のアイコン" /></div>
+                    <p class="l-contact__number"><img src="images/tel-number.svg" alt="0120-407-672" width="182" height="19" /></p>
+                  </a>
+                  <p class="l-contact__time"><img src="images/tel-time.svg" alt="平日9:30-19:00" width="241" height="41" /></p>
+                </div>
+              </div>
+            </div>
+            <div class="l-footer__mascot"><img src="images/navi-logo.webp" width="640" height="131" alt="ほけんNavi せつやくん" /></div>
+          </div>
+          <div class="l-footer__bottom-wrapper">
+            <div class="l-footer__bottom">
+              <p class="l-footer__bottom-text">フィナンシャル・エージェンシーは、高度な情報セキュリティ体制を実現するため、情報セキュリティ管理の国際規格である情報セキュリティマネジメントシステム「ISO/IEC27001」および、プライバシーマーク「JISQ 15001」の認証を取得しております。</p>
+              <div class="l-footer__bottom-icon">
+                <figure class="l-footer__certification l-footer__certification--asr"><img src="images/asr-isms.webp" width="290" height="206" alt="ASR ISMS AC isoiec27001" /></figure>
+                <figure class="l-footer__certification l-footer__certification--privacy"><img src="images/privacypolicy.webp" width="206" height="206" alt="privacypolicy" /></figure>
+              </div>
+            </div>
+            <div class="l-footer__bottom-text-wrapper">
+              <p class="l-footer__copy">&copy; FINANCIAL AGENCY, Inc.</p>
+              <p class="l-footer__number">D3099</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
